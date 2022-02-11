@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer", "Consumer\Consumer.csproj", "{BDEB1D72-93CF-4C21-A2C9-94971A12456F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Publisher.Api", "Publisher\Publisher.Api.csproj", "{F68B81D0-19D2-46C8-A011-F0306BA32926}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{69575766-D238-46FF-86FD-69533E479924}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDEB1D72-93CF-4C21-A2C9-94971A12456F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDEB1D72-93CF-4C21-A2C9-94971A12456F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDEB1D72-93CF-4C21-A2C9-94971A12456F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDEB1D72-93CF-4C21-A2C9-94971A12456F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F68B81D0-19D2-46C8-A011-F0306BA32926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F68B81D0-19D2-46C8-A011-F0306BA32926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F68B81D0-19D2-46C8-A011-F0306BA32926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F68B81D0-19D2-46C8-A011-F0306BA32926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69575766-D238-46FF-86FD-69533E479924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69575766-D238-46FF-86FD-69533E479924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69575766-D238-46FF-86FD-69533E479924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69575766-D238-46FF-86FD-69533E479924}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B94F32D-B67C-44B1-A280-8CC34EAAE99D}
+	EndGlobalSection
+EndGlobal

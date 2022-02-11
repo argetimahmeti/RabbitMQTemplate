@@ -1,0 +1,33 @@
+version: '3.4'
+
+services:
+  publisher:
+    image: ${DOCKER_REGISTRY-}publisher
+    container_name: publisher
+    build:
+      context: .
+      dockerfile: Publisher/Dockerfile
+    restart: always
+    
+  consumer:
+    image: ${DOCKER_REGISTRY-}consumer
+    container_name: consumer
+    build:
+      context: .
+      dockerfile: Consumer/Dockerfile
+    restart: always
+    depends_on:
+      - "publisher"
+      - "rabbitmq"
+
+  rabbitmq:
+    image: rabbitmq:management-alpine
+    container_name: rabbitmq
+    ports:
+    - "15672:15672"
+    
+
+
+
+  
+
